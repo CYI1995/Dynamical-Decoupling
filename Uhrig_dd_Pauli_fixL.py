@@ -3,8 +3,6 @@ import scipy
 import math
 from scipy import linalg
 from matplotlib import pyplot as plt
-import source as srs
-import bacon_shor as bs
 
 def matrix_norm(M,dim):
     eig,vec = np.linalg.eig(M)
